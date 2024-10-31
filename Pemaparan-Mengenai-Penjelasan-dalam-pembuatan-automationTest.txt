@@ -1,0 +1,9 @@
+# Saya ingin memaparkan mengenai proses pembuatan pengujian pada website e-commerce https://www.demoblaze.com/index.html website ini menyediakan berbagai fitur seperti browsing produk, menambahkan item ke keranjang, dan melakukan pemesanan tanpa risiko bagi pengguna.
+
+- Hal Pertama menentukan kasus uji yang perlu diotomatisasi. termasuk skenario yang perlu diuji secara berulang seperti login, registrasi, keranjang belanja, pengisian form contact. selanjutnya saya memilih alat otomatisasi yang sesuai dengan kebutuhan pengujian saya menggunakan bahasa pemrograman python dengan selenium dan mengatur ChromeDriver kemudian di Implementasikan di visual studio code.
+
+- Hal Kedua menulis skrip uji, seperti untuk mengisi form login dan registrasi lalu mengklik tombol, menambahkan produk ke keranjang dengan, Klik tombol checkout, mengisi form checkout dan klik tombol pembelian lalu mengisi teks pada input contact dan memverifikasi output dan ,menguji jika valid dan invalid. dalam pengujian pada form Shopping cart saya menggunakan WebDriverWait untuk menunggu elemen muncul sebelum berinteraksi ini salah satu tantangan yang saya hadapi adalah menangani elemen dinamis yang saya atasi dengan menggunakan WebDriverWait. Saya juga memastikan untuk menangani exception dengan try-except untuk menjaga agar pengujian tetap berjalan meskipun ada kesalahan
+
+# Hal Ketiga Setelah semua Skrip uji sudah siap lalu saya menjalankan uji. alat otomatisasi akan mengambil kontrol dari aplikasi sistem yang di uji untuk menjalankan skrip langkah demi langkah, setelah selesai alat otomatisasi menghasilkan laporan yang merinci dari hasil laporan pengujian maka akan terlihat tentang tes yang berhasil dan gagal atau menghasilkan peringatan
+
+# Hal Keempat ini saya akan menganalisa hasil laporan dan mengidentifikasi masalah jika terjadi bug di aplikasi tersebut dan akan mengkonfirmasikan kepada pengembang.
